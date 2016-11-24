@@ -1,0 +1,15 @@
+{
+  "name": "composeaddresstranslator",
+  "version": "1.0.0",
+  "description": "An Address Translator for ScyllaDB on Compose",
+  "main": "composeaddresstranslator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scylla",
+    "compose"
+  ],
+  "author": "dj@compose.com",
+  "license": "MIT"
+}
