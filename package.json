@@ -1,15 +1,19 @@
 {
-  "name": "composeaddresstranslator",
-  "version": "1.0.2",
-  "description": "An Address Translator for ScyllaDB on Compose",
-  "main": "composeaddresstranslator.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "scylla",
-    "compose"
-  ],
-  "author": "dj@compose.com",
-  "license": "MIT"
+    "name": "composeaddresstranslator",
+    "version": "1.0.3",
+    "description": "An Address Translator for ScyllaDB on Compose",
+    "main": "composeaddresstranslator.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/compose-ex/composeaddresstranslator.git"
+    },
+    "keywords": [
+        "scylla",
+        "compose"
+    ],
+    "author": "dj@compose.com",
+    "license": "MIT"
 }
