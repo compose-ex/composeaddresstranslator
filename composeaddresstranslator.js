@@ -7,7 +7,7 @@ util.inherits(ComposeAddressTranslator, cassandra.policies.addressResolution.Add
 
 ComposeAddressTranslator.prototype.translate = function(address, port, callback) {
     origAddress = address + ":" + port;
-    newAddress = ComposeAddressTranslator.address_map[origAddress] || origAddress;
+    newAddress = ComposeAddressTranslator.address_map.get(origAddress) || origAddress;
     callback(newAddress);
 };
 
